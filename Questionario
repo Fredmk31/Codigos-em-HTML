@@ -1,42 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
         <meta charset = "UTF-8">
         <meta name ="keyword"  content = "HTML">
         <meta  name="description" content="HTML basico">
         <font color = "Black">
+
+        
             <title>Questionario</title>
     <h1>
             <table border = 1 cellppading = 10 cellppading = 0>
         
         <tr>
             <td>
+                <style>
+                    header {background-color: rgb(192, 186, 186);}
+                </style>
+     
                 <header> Questionario Bacana</header>
 
             </td>
         </tr>
     </h1>
         </table>    
-   
+       
     </head>
   
-    <h2><Body>
-        <font color = "Black">
-            
+ 
+    <h4><Body>
+       
+   <style>
+            body {background-color: rgb(237, 240, 243);}
+    </style>
+       
             <label for="Nome">Nome:</label> <br>
-            <input type="text" id="name" placeholder="digite seu nome" required <br><br>
+            <input type="text" id="name" placeholder="digite seu nome" required> <br><br>
            
             <label for="Idade">Idade:</label> <br>
-            <input type="number" id="age"min = "1" max="120" required <br><br>
+            <input type="number" id="age"placeholder="digite sua idade" min = 1  required> <br><br>
+           
             
             <label for="Email">Email:</label> <br>
-            <input type="email" id="email" placeholder="digite seu email" required <br><br>
+            <input type="email" id="email" placeholder="digite seu email" required> <br> <br>
             
             <label for="password">Senha:</label> <br>
-            <input type="password" id="password" placeholder="digite sua senha" required <br><br>
+            <input type="password" id="password" placeholder="digite sua senha" required> <br> <br>
             
             <label for="birthday">Aniversário</label> <br>
-            <input type="date" id="birthday" required <br><br>
+            <input type="date" id="birthday" required> <br><br>
             
             <label for="color">Sua cor favorita:</label> <br>
             <input type="color" id="color" name="color"> <br><br>
@@ -47,16 +59,22 @@
             <input type="checkbox" name="female" id="female" value="female">
             <label for="female">Mulher</label> <br>
 
-            <label for="Lingua estrangeira">Seu nivel de conhecimento de lingua estrangeira:</label> <br>
-            <input type="range" id="conhecimento"  required <br><br>
+            <label for="Lingua estrangeira">Seu nivel de conhecimento em lingua estrangeira:</label> <br>
+            <input type="range" id="conhecimento"required> <br> <br>
 
             <label for="birthday">Adicione seus documentos em PDF</label> <br>
-            <input type="file" id="documentos" required <br><br>
+            <input type="file" id="documentos" required> <br> <br>
            
-            <a href="// ">Submit</a>
-
-        </h2>
+      
+            <input type= "submit" value="Enviar">
+    
+      
+        </table>
+       
+        </h4>
         
     </Body>
+
+
 
 </html>
