@@ -1,0 +1,84 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML">
+    <meta name="description" content="HTML básico">
+    <title>Objetivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Objetivo no curso</h1>
+    </header>
+
+    <div class="box">
+        <h3>Meus Objetivos</h3>
+        <p>Quero ter conhecimento o suficiente para estar preparado para o mercado de trabalho atual.</p>
+    </div>
+
+    <footer>
+        <p>Obrigado</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+Css
+
+
+
+/* Estilo para o cabeçalho principal */
+header {
+    background-color: #00ff08; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+    font-size: 24px; /* Tamanho da fonte */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin: 20px auto; /* Centraliza o cabeçalho com margens automáticas */
+    width: 80%; /* Largura do cabeçalho */
+}
+
+/* Estilo para o container principal */
+.box {
+    background-color: white; /* Cor de fundo branca */
+    border: 1px solid #ddd; /* Borda leve */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidade */
+    max-width: 600px; /* Largura máxima */
+    margin: 20px auto; /* Centraliza o container */
+}
+
+/* Estilo para o footer */
+footer {
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #00ff08; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    position: fixed; /* Fixa o rodapé na parte inferior da página */
+    bottom: 0; /* Alinha o rodapé na parte inferior */
+    width: 100%; /* Largura total */
+}
+
+/* Estilo para cabeçalhos dentro do container */
+.box h3 {
+    color: #333; /* Cor do texto do cabeçalho */
+    margin-top: 0; /* Remove a margem superior */
+}
+
+/* Estilo para parágrafos dentro do container */
+.box p {
+    color: #555; /* Cor do texto do parágrafo */
+    line-height: 1.6; /* Espaçamento entre linhas */
+}
